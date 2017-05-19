@@ -1,0 +1,6 @@
+network.host: 0.0.0.0
+cluster.name: production
+node.name: node1
+network.publish_host: MASTER_IP
+discovery.zen.ping.multicast.enabled: false
+discovery.zen.ping.unicast.hosts: ["MASTER_IP", "SLAVE1_IP", "SLAVE2_IP"]
